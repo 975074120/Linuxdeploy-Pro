@@ -19,7 +19,7 @@ jobs:
         cache: gradle
 
     - name: Build with Gradle
-      uses: burrunan/gradle-cache-action@v1
+      uses: burrunan/gradle-cache-action@v2
       with:
         job-id: jdk11
         arguments: --build-cache build
